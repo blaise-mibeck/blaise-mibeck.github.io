@@ -1,0 +1,40 @@
+title: Blaise A.F. Mibeck - Senior Scientific Investigator
+description: Expert in X-ray crystallography, materials characterization, and scientific instrumentation
+theme: jekyll-theme-minimal
+show_downloads: false
+google_analytics: UA-XXXXXXXXX-X  # Replace with your Google Analytics tracking ID
+
+# SEO Settings
+author: Blaise A.F. Mibeck
+twitter:
+  username: your_twitter_handle
+  card: summary
+
+# Social Media and Contact
+social:
+  name: Blaise A.F. Mibeck
+  links:
+    - https://www.linkedin.com/in/blaisemibeck/
+    - https://scholar.google.com/citations?hl=en&user=S_nxFmQAAAAJ
+    - https://github.com/blaise-mibeck
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - .gitignore

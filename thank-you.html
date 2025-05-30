@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Blaise Mibeck</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="thank-you-container">
+        <div class="thank-you-content">
+            <h1>Thank You!</h1>
+            <p>Your message has been successfully submitted. I appreciate you taking the time to reach out.</p>
+            <p>I will review your message and get back to you as soon as possible.</p>
+            <div class="cta-buttons">
+                <a href="index.html" class="btn">Return to Portfolio</a>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Optional: Add some simple animation or tracking
+        document.addEventListener('DOMContentLoaded', function() {
+            const thankYouContent = document.querySelector('.thank-you-content');
+            thankYouContent.style.opacity = 0;
+            thankYouContent.style.transform = 'translateY(20px)';
+            
+            setTimeout(() => {
+                thankYouContent.style.transition = 'all 0.5s ease-out';
+                thankYouContent.style.opacity = 1;
+                thankYouContent.style.transform = 'translateY(0)';
+            }, 100);
+        });
+    </script>
+</body>
+</html>

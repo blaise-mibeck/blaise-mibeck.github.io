@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blaise-mibeck.github.io/sitemap.xml
+
+# Directories to exclude
+Disallow: /documents/
+Disallow: /js/
+Disallow: /css/
+
+# Specific file exclusions
+Disallow: /formspree.json
+Disallow: /.gitignore
+
+# Crawl-delay to be respectful of server resources
+Crawl-delay: 10
+
+# Contact information for webmaster
+Sitemap: https://blaise-mibeck.github.io/sitemap.xml
